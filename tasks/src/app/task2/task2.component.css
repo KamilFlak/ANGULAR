@@ -1,0 +1,60 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+}
+.site-container{
+    border: solid 1px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    
+}
+.gallery-containter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+.art-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+}
+@media screen and (max-width:1440px){
+    .art-container{
+        flex-direction: column; 
+    }
+    .art2{
+        width: 95%; 
+        flex-basis: 650px;
+    }
+    .art1{
+        width: 95%; 
+        flex-basis: 650px;
+    }
+    .card-image{
+        width: 100%;
+        height: 650px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.art1{
+    height: 424px;
+    padding: 10px;
+}
+.art2{
+    height: 424px;
+    padding: 10px;
+}

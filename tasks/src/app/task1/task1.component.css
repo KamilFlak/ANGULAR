@@ -1,0 +1,74 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.dog{
+    width: 70px;
+    height: 70px;
+}
+
+.flexboxx-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.case-box{    
+    display: flex;
+    background-color: #fef7fe;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 550px;
+    margin: 10px;
+    
+
+}
+@media screen and (max-width:1440px) and (min-width: 451px) {
+    .flexboxx-container{
+        flex-direction: column;   
+    }
+    .case-box{
+        width: 95%; 
+    }
+}
+
+.title-up{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.title-down{
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.box{
+   text-align: center;
+}
+.pet-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:120px;
+    width:120px;
+    background: #ffedf1;
+    border-radius: 120px;
+    
+
+}
+.pet_case{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.case-describe{
+    font-weight: 300;
+    font-size: 20px;
+    flex-grow: 10;
+
+}
+

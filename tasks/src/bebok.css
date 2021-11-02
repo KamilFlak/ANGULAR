@@ -1,0 +1,156 @@
+@keyframes appear{
+from{
+opacity: 0%;
+}
+to{
+opacity:80%;
+}
+}
+@keyframes appear_text{
+from{
+opacity: 0%;
+}
+to{
+opacity: 100%;
+}
+}
+
+body {
+margin: 0;
+font-family: Roboto, sans-serif;
+height: 100%;
+background-color: rgb(242, 217, 245);
+}
+
+#header {
+background-color: rgb(242, 217, 245);
+padding: 10px 50px;
+opacity: 80%;
+animation-name: appear;
+animation-duration: 1s;
+}
+
+#logo {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+letter-spacing: 10px;
+color: rgb(0, 0, 0);
+margin: 0;
+font-size: 34px;
+opacity: 100%;
+
+}
+
+#header nav {
+float: right;
+margin-right: -20px;
+
+}
+
+#header nav a {
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+color: rgb(0, 0, 0);
+text-decoration: none;
+transition: .1s ease-in-out;
+
+}
+#header nav a:hover {
+color: rgb(255, 255, 255);
+animation-duration: 1s;
+animation-fill-mode: both;
+transition: .1s ease-in-out;
+}
+
+section.image {
+height: 500px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+section.image1 {
+height: 800px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+margin: -300px 0px 0px 0px;
+
+}
+
+section.text h2 {
+font-size: 36px;
+font-weight: normal;
+}
+.big_text{
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 30pt;
+letter-spacing: 4px;
+animation-name: appear_text;
+animation-duration: 2s;
+animation-delay: 1s;
+animation-fill-mode: both;
+
+}
+.center_text{
+text-align: center;
+margin-top: -30px;
+line-height: 25px;
+color: #505050;
+letter-spacing: 0px;
+animation-name: appear_text;
+animation-duration: 2s;
+animation-delay: 2s;
+animation-fill-mode: both;
+}
+.article_down{
+display: flex;
+justify-content: center;
+background-color: rgb(54, 54, 54);
+border-bottom: 1px solid #fff;
+padding: 30px 0px 30px 0px;
+}
+ul{
+list-style: none;
+
+}
+li{
+list-style: none;
+
+}
+
+.text{
+width: 200px;
+text-align:left;
+font-size: 12pt;
+line-height: 17px;
+color: #ffffff;
+margin: 0px 60px 0px 0px;
+line-height: 25px;
+}
+
+.bold_text{
+font-weight: bold;
+color: rgb(255, 255, 255);
+}
+
+.article_down a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+.article_down a:hover{
+color: darkgrey;
+}
+
+#footer {
+background-color: rgb(54, 54, 54);
+color: rgb(121, 121, 121);
+padding: 25px 50px;
+font-size: 14px;
+text-align: center;
+margin: 0px 0px 0px 0px;
+opacity: 100%;
+}
